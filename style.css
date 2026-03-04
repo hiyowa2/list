@@ -10,8 +10,8 @@
 
 
 .roko{
-  max-width: 10rem;
-  max-height: 30rem;
+  max-width: 30vw;
+  max-height: 40vw;
   border: inset 0.3rem maroon;
 }
 html, body {
@@ -30,9 +30,6 @@ body {
    margin-left:10vw;
    
 }
-
-
-
 
 
 
