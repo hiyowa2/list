@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .sidebar {
     display: none;
   }
@@ -11,10 +11,26 @@ img {
   max-width: 100%;
   height: auto;
 }
-body,html{
-  margin-left: 10vw;
-}
+
 .roko{
-  max-width: 30vw;
-  max-height: 50%;
+  max-width: 40vw;
+  max-height: 50vw;
+  border: inset 0.3rem maroon;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    to bottom left,
+    #93efffd5,
+    #5000005d
+  );
+}
+.a{
+   margin-left:10vw;
+   
 }
