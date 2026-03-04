@@ -13,8 +13,8 @@ img {
 }
 
 .roko{
-  max-width: 40vw;
-  max-height: 50vw;
+  max-width: 10rem;
+  max-height: auto;
   border: inset 0.3rem maroon;
 }
 html, body {
@@ -28,7 +28,10 @@ body {
   min-height: 100vh;
   background: linear-gradient(225deg, #93efffd5, #5000005d);
 }
+
 .a{
    margin-left:10vw;
    
 }
+
+
