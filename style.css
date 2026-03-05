@@ -53,3 +53,16 @@ img {
 .maroon{
   color:maroon;
 }
+
+
+.viewer{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+}
+
+.viewer img{
+  width:300px;
+}
+
