@@ -21,5 +21,41 @@
 </div>
 </div>
 </div>
+
+
+
+```html
+<div class="viewer">
+  <button onclick="prev()">◀</button>
+  <img id="char" src="霊夢(無料版).webp">
+  <button onclick="next()">▶</button>
+</div>
+
+<script>
+const poses = [
+  "pose1.png",
+  "pose2.png",
+  "pose3.png",
+  "pose4.png"
+];
+
+let index = 0;
+
+function show(){
+  document.getElementById("char").src = poses[index];
+}
+
+function next(){
+  index = (index + 1) % poses.length;
+  show();
+}
+
+function prev(){
+  index = (index - 1 + poses.length) % poses.length;
+  show();
+}
+</script>
+```
+
 </body>
 
