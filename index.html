@@ -11,7 +11,12 @@
     <p>立ち絵:</p>
     <p>
 <div class="roko">
-  <img src="霊夢(無料版).webp" alt="ロコ式">
+  <div class="a">
+  <button onclick="prev()">◀</button>
+  <img id="char" src="霊夢(無料版).webp">
+  <button onclick="next()">▶</button>
+</div>
+
 </div>
     </p>
 
@@ -24,16 +29,11 @@
 
 
 
-```html
-<div class="viewer">
-  <button onclick="prev()">◀</button>
-  <img id="char" src="霊夢(無料版).webp">
-  <button onclick="next()">▶</button>
-</div>
+
 
 <script>
 const poses = [
-  "pose1.png",
+  "霊夢(無料版)_0000.webp",
   "pose2.png",
   "pose3.png",
   "pose4.png"
@@ -55,7 +55,9 @@ function prev(){
   show();
 }
 </script>
-```
+
+
+
 
 </body>
 
