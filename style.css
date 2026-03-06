@@ -1,67 +1,72 @@
-@media (max-width: 480px) {
-  .sidebar {
-    display: none;
-  }
-
-  .main {
-    width: 100%;
-  }
-}
-
-
-.roko{
-  max-width: 50vw;
-  max-height: 60vw;
-  border: inset 0.3rem maroon;
-}
 html, body {
-  height: 100%;
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height: 100%;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  margin: 0;
-  min-height: 100vh;
-  background: linear-gradient(225deg, #93efffd5, #5000005d);
+margin: 0;
+min-height: 100vh;
+background: linear-gradient(225deg, #93efffd5, #5000005d);
 }
 
 .a{
-   margin-left:10vw;
-   
+margin-left:10vw;
 }
-.roko img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.roko {
-  width: 27vw;   /* とりあえず固定で確認 */
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-
-
-.maroon{
-  color:maroon;
-}
-
 
 .viewer{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:10px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:20px;
 }
 
-.viewer img{
-  width:300px;
+.roko1{
+width:80vw;
+border: inset 0.3rem maroon;
 }
+
+.roko2{
+width:80vw;
+border: inset 0.3rem rgb(128, 119, 0);
+}
+
+.roko3{
+width:80vw;
+border: inset 0.3rem rgb(0, 128, 128);
+}
+
+.roko img{
+width:100%;
+height:auto;
+display:block;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+.maroon{
+color:maroon;
+}
+
 .min{
-  font-size:0.7rem;
+font-size:0.7rem;
 }
+
+/* PC表示 */
+
+@media (min-width:768px){
+
+.viewer{
+flex-direction:row;
+justify-content:center;
+}
+
+.roko{
+width:27vw;
+}
+
+}
+
